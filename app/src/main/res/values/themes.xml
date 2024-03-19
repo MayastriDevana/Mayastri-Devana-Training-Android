@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BCASyariah" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BCASyariah" parent="Base.Theme.BCASyariah" />
+    <style name="buttonstyle3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/orange</item>
+        <item name="colorButtonNormal">@color/green</item>
+    </style>
+</resources>

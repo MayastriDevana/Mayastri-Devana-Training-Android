@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BCASyariah</string>
+    <string name="register_label">Register</string>
+    <string name="enter_password_hint">Enter your password...</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_password">Enter your password again...</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter your full name...</string>
+    <string name="enter_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="Profile_Name">Name</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivIconDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/keluar" />
+
+    <TextView
+        android:id="@+id/tvDialogue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah Anda Ingin Keluar?"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/Pink"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/Pink"
+        android:layout_marginTop="10dp"
+        />
+    </LinearLayout>
+</LinearLayout>
