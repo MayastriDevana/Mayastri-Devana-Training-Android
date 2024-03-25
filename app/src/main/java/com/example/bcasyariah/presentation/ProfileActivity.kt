@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.bcasyariah.R
 import com.example.bcasyariah.presentation.RegisterActivity.Companion.KEY_NAME
 import com.example.bcasyariah.databinding.ActivityProfileBinding
+import dagger.hilt.android.AndroidEntryPoint
+
 
 class ProfileActivity : AppCompatActivity() {
 
